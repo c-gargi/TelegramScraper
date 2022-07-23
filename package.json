@@ -1,0 +1,22 @@
+{
+  "name": "telegramscraper",
+  "version": "1.0.0",
+  "description": "Scrapes messages from Telegram",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.669.0",
+    "delay": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "mtproto-storage-fs": "^0.3.1",
+    "readline": "^1.3.0",
+    "sessionstorage": "^0.1.0",
+    "telegram-mtproto": "^2.2.2"
+  }
+}
